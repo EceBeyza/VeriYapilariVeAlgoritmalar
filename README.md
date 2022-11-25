@@ -23,6 +23,12 @@
 
 
 
- **3. SORU**
+ **Time Complexity: Dizi sıralandıktan sonra 18 sayısı aşağıdaki case'lerden hangisinin kapsamına girer? Yazınız**
 
 *[2,6,16,18,22,27] olarak sonuçlandığı için ve "18" ortada kaldığı için Average case'e girer.*
+
+**[7,3,5,8,2,9,4,15,6] dizisinin Selection Sort'a göre ilk 4 adımını yazınız.**
+- En küçük "2" olduğu için, 2 ve 7'nin yerini değiştireceğiz. **[2,3,5,8,7,9,4,15,6]** n + (n-1)
+- 3 diğer en küçük olduğu için olduğu yerde kalır, 4 rakamı 3 ve 5 arasına konulur. **[2,3,4,5,8,7,9,15,6]**  ( n-2)
+- 6 , 5 ve 8 arasına geçer. **[2,3,4,5,6,8,7,9,15]** (n-3)
+- 7, 6 ve 8 arasına geçer. **[2,3,4,5,6,7,8,9,15]** (n-4)
