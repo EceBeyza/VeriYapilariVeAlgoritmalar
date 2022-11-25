@@ -10,12 +10,13 @@
 **Dizideki eleman sayısı n olsun. Big-O yöntemine göre sıralama yapılırken işlem sayısı da n olur. Son işlem sayısı 1 olana kadar devam eder.**
 **[22,27,16,2,18,6] dizisinde 6 tane eleman vardır, yani 6 tane işlem yapılacaktır demektir. Şöyle ki,**
 
-ilk adımda n-> 6 tane işlem,
--ikinci adımda en küçük elemanı (yani birinci) bulmak için (n-1)-> 6-1=5 tane işlem,
--Üçüncü adımda ikinci elemanı bulmak için (n-2)-> 6-2=4 tane işlem,
--Dördüncü adımda üçüncü elemanı bulmak için (n-3)-> 6-3=3 tane işlem,
--Beşinci adımda dördüncü elemanı bulmak için (n-4)-> 6-4=2 tane işlem yapılır.
--Altı elemanlı dizi olduğu için daha fazla işlem yapılmasına gerek yoktur çünkü son eleman altıncı elemandır.-
--Bu algoritmada n+(n-1)+(n-2)+(n-3)+(n-4)+1 kadar işlem yapılır. Bu işlemin formülü: [n(n+1)]/2'dir. Bu formül sadeleştirilerek: (n²+n)/2 elde edilir.
--Big-O Notation'da kat sayı önemsizdir; yani domine eden fonksiyon n² alınır.
+1. n-> 6 tane işlem,
+2. en küçük elemanı (yani birinci) bulmak için (n-1)-> 6-1=5 tane işlem,
+3. ikinci elemanı bulmak için (n-2)-> 6-2=4 tane işlem,
+4. adımda üçüncü elemanı bulmak için (n-3)-> 6-3=3 tane işlem,
+5. adımda dördüncü elemanı bulmak için (n-4)-> 6-4=2 tane işlem yapılır.
+6. Altı elemanlı dizi olduğu için daha fazla işlem yapılmasına gerek yoktur çünkü son eleman altıncı elemandır.-
+7. Bu algoritmada n+(n-1)+(n-2)+(n-3)+(n-4)+1 kadar işlem yapılır. Bu işlemin formülü: [n(n+1)]/2'dir. Bu formül sadeleştirilerek: (n²+n)/2 elde edilir.
+8. Big-O Notation'da kat sayı önemsizdir; yani domine eden fonksiyon n² alınır.
+
 -Big-O değeri = O(n²)
