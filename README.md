@@ -1,4 +1,4 @@
-# Veri yapıları ve Algoritmalar#
+# Veri yapıları ve Algoritmalar
 **[22,27,16,2,18,6] -> Insertion Sort** 
 
 1. aşama :*2 en küçük sayı olduğu için en başa geçer. [2,27,16,22,18,6]*
