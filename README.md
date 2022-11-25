@@ -20,3 +20,7 @@
 8. Big-O Notation'da kat sayı önemsizdir; yani domine eden fonksiyon n² alınır.
 
 -Big-O değeri = O(n²)
+
+
+**3. SORU**
+*[2,6,16,18,22,27] olarak sonuçlandığı için ve "18" ortada kaldığı için Average case'e girer. 
