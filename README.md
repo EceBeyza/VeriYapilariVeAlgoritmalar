@@ -23,4 +23,5 @@
 
 
 **3. SORU**
-*[2,6,16,18,22,27] olarak sonuçlandığı için ve "18" ortada kaldığı için Average case'e girer. 
+
+*[2,6,16,18,22,27] olarak sonuçlandığı için ve "18" ortada kaldığı için Average case'e girer.*
