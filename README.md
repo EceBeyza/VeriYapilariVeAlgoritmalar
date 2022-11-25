@@ -9,6 +9,7 @@
 
 **Dizideki eleman sayısı n olsun. Big-O yöntemine göre sıralama yapılırken işlem sayısı da n olur. Son işlem sayısı 1 olana kadar devam eder.**
 **[22,27,16,2,18,6] dizisinde 6 tane eleman vardır, yani 6 tane işlem yapılacaktır demektir. Şöyle ki,**
+
 ilk adımda n-> 6 tane işlem,
 -ikinci adımda en küçük elemanı (yani birinci) bulmak için (n-1)-> 6-1=5 tane işlem,
 -Üçüncü adımda ikinci elemanı bulmak için (n-2)-> 6-2=4 tane işlem,
