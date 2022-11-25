@@ -19,9 +19,10 @@
 7. Bu algoritmada n+(n-1)+(n-2)+(n-3)+(n-4)+1 kadar işlem yapılır. Bu işlemin formülü: [n(n+1)]/2'dir. Bu formül sadeleştirilerek: (n²+n)/2 elde edilir.
 8. Big-O Notation'da kat sayı önemsizdir; yani domine eden fonksiyon n² alınır.
 
--Big-O değeri = O(n²)
+- Big-O değeri = O(n²)
 
 
-**3. SORU**
+
+- **3. SORU**
 
 *[2,6,16,18,22,27] olarak sonuçlandığı için ve "18" ortada kaldığı için Average case'e girer.*
